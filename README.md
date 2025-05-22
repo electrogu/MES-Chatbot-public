@@ -15,18 +15,18 @@ Originally created for an internship program in 2022.
 
 ```
 MES-Chatbot-public/
-??? credentials/                # Firebase service account credentials (ignored by git)
-??? functions/                  # Firebase Cloud Functions (optional)
-??? src/
-?   ??? app.js                  # Express app
-?   ??? app.test.js             # Tests for Express app
-?   ??? index.js                # Main entry point
-??? .env                        # Environment variables (ignored by git)
-??? database.js                 # Firebase admin and database helpers
-??? scheduler.js                # Notification scheduling logic
-??? package.json
-??? README.md
-??? ... (other config files)
+├── credentials/                # Firebase service account credentials (ignored by git)
+├── functions/                  # Firebase Cloud Functions (optional)
+├── src/
+│   ├── app.js                  # Express app
+│   ├── app.test.js             # Tests for Express app
+│   └── index.js                # Main entry point
+├── .env                        # Environment variables (ignored by git)
+├── database.js                 # Firebase admin and database helpers
+├── scheduler.js                # Notification scheduling logic
+├── package.json
+├── README.md
+└── ... (other config files)
 ```
 
 ## Getting Started
